@@ -1,10 +1,8 @@
-# NMAP-Formatter
-
-![build status](https://github.com/vdjagilev/nmap-formatter/actions/workflows/go.yml/badge.svg)
-[![codecov](https://codecov.io/gh/vdjagilev/nmap-formatter/branch/main/graph/badge.svg?token=8WSYXRKMFA)](https://codecov.io/gh/vdjagilev/nmap-formatter)
-[![Maintainability](https://api.codeclimate.com/v1/badges/7836d3a52439fb1affa0/maintainability)](https://codeclimate.com/github/vdjagilev/nmap-formatter/maintainability)
-
----
+<p align="center">
+  <img width="100" src="https://imgur.com/3cw4DQr.png" alt="NetScan Security Logo" />
+  <h2 align="center">NetScan NMAP-Formatter</h2>
+  <p align="center">Precision Scans, Real-time Defense</p>
+</p>
 
 ## Examples
 
@@ -31,7 +29,7 @@ All other options can be found on [Installation Wiki page](https://github.com/vd
 nmap-formatter [html|csv|md|json|dot|sqlite] [path-to-nmap.xml] [flags]
 ```
 
-Or alternatively you can read file from `stdin` and parse it
+Alternatively, you can read the file from `stdin` and parse it
 
 ```bash
 cat some.xml | nmap-formatter json
@@ -75,7 +73,7 @@ More examples can be found on [Usage Wiki page](https://github.com/vdjagilev/nma
 
 ### Flags
 
-* `-f, --file [filename]` outputs result to the file (by default output goes to STDOUT)
+* `-f, --file [filename]` outputs the result to the file (by default output goes to STDOUT)
 * `--help` display help message
 * `--version` display version (also can be used: `./nmap-formatter version`)
 
